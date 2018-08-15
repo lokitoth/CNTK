@@ -153,13 +153,18 @@
     <ClInclude Include="API\CNTKLibraryExperimental.h">
       <Filter>API</Filter>
     </ClInclude>
+    <ClInclude Include="API\Internals\ComputationGraphAlgorithms.h">
+      <Filter>API\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Internals\PrimitiveFunctionAttribute.h">
+      <Filter>API\Internals</Filter>
+    </ClInclude>
     <ClInclude Include="Serialization.h" />
     <ClInclude Include="Value.h" />
     <ClInclude Include="PrimitiveOpType.h" />
     <ClInclude Include="DistributedCommunicator.h" />
     <ClInclude Include="BackCompat.h" />
     <ClInclude Include="CompositeFunction.h" />
-    <ClInclude Include="PrimitiveFunctionAttributes.h" />
     <ClInclude Include="PrimitiveFunction.h" />
     <ClInclude Include="DistributedLearnerBase.h" />
     <ClInclude Include="DataParallelDistributedLearner.h" />
@@ -304,6 +309,9 @@
   <ItemGroup>
     <Filter Include="API">
       <UniqueIdentifier>{ea62180a-fb06-4f33-b472-243fab69be01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Internals">
+      <UniqueIdentifier>{ba31bf16-b001-406c-a437-a6e7841fc372}</UniqueIdentifier>
     </Filter>
     <Filter Include="proto">
       <UniqueIdentifier>{1a93e221-b14c-476a-a53d-c931030acd6e}</UniqueIdentifier>
